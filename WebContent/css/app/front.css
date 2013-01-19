@@ -5,8 +5,11 @@
 #wehelpsulink{
 	float : left;
 }
+body{
+	background-color: #E8E8E8;
+}
 #header{
-	/*background-color: #75c938;*/
+	
 	
 	height: 50px;
 }
@@ -59,7 +62,7 @@
 		color-stop(0.72, rgb(250,250,205)),
 		color-stop(0.86, rgb(255,254,247))
 	);*/
-	background-color: #ffffff;
+	background-color: #E8E8E8;
 	
 }
 #signupcontent{
@@ -126,6 +129,7 @@
 	height: 520px;
 }
 .matterheader{
+	text-decoration:underline;
 	margin:auto;
 	text-align: center;
 	color: #C68E17;
@@ -147,11 +151,10 @@
 }
 .bigquoteleft{
 	float: left;
-	text-align: bottom;
+	
 	font-size: 50px;
 }
 .bigquoteright{
 	float: right;
-	text-align: bottom;
 	font-size: 50px;
 }
