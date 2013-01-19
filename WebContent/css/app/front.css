@@ -25,9 +25,6 @@
 }
 .maincontent{
 	/*color: #FFD700;*/
-	color: #C68E17;
-	font-family: my_custom_font;
-	font-size: 40px;
 	margin:auto;
 	height: 460px;
 	width: 900px;
@@ -127,4 +124,34 @@
 	/*background-color: #75c938;*/
 	background-color: #8D38C9;
 	height: 520px;
+}
+.matterheader{
+	margin:auto;
+	text-align: center;
+	color: #C68E17;
+	font-family: my_custom_font;
+	font-size: 40px;
+}
+.matter{
+	color: #C68E17;
+	padding-left: 60px;
+	padding-right: 50px;
+	font-family: my_custom_font;
+	font-size: 32px;
+}
+.pen{
+	background: url(../Images/pen.png) bottom right no-repeat; 
+}
+#aboutuspen{
+	float: right;
+}
+.bigquoteleft{
+	float: left;
+	text-align: bottom;
+	font-size: 50px;
+}
+.bigquoteright{
+	float: right;
+	text-align: bottom;
+	font-size: 50px;
 }
