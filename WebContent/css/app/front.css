@@ -2,6 +2,9 @@
  @font-face{    font-family: my_custom_font;
        src: url("../fonts/FancyCardText.ttf");
  }
+#wehelpsulink{
+	float : left;
+}
 #header{
 	/*background-color: #75c938;*/
 	
