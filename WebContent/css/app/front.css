@@ -1,0 +1,127 @@
+   
+ @font-face{    font-family: my_custom_font;
+       src: url("../fonts/FancyCardText.ttf");
+ }
+#header{
+	/*background-color: #75c938;*/
+	
+	height: 50px;
+}
+
+#aboutusmenu{
+	float: right;
+}
+#gallerymenu{
+	float: right;
+}
+#loginmenu{
+	float: right;
+}
+#signupmenu{
+	float: right;
+}
+.maincontent{
+	/*color: #FFD700;*/
+	color: #C68E17;
+	font-family: my_custom_font;
+	font-size: 40px;
+	margin:auto;
+	height: 460px;
+	width: 900px;
+
+}
+#aboutuscontent{
+	/*background-image: linear-gradient(bottom, rgb(195,142,12) 29%, rgb(234,171,39) 65%, rgb(255,206,67) 83%);
+	background-image: -o-linear-gradient(bottom, rgb(195,142,12) 29%, rgb(234,171,39) 65%, rgb(255,206,67) 83%);
+	background-image: -moz-linear-gradient(bottom, rgb(195,142,12) 29%, rgb(234,171,39) 65%, rgb(255,206,67) 83%);
+	background-image: -webkit-linear-gradient(bottom, rgb(195,142,12) 29%, rgb(234,171,39) 65%, rgb(255,206,67) 83%);
+	background-image: -ms-linear-gradient(bottom, rgb(195,142,12) 29%, rgb(234,171,39) 65%, rgb(255,206,67) 83%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.29, rgb(195,142,12)),
+		color-stop(0.65, rgb(234,171,39)),
+		color-stop(0.83, rgb(255,206,67))
+	);*/
+	/*background-image: linear-gradient(bottom, rgb(252,234,146) 44%, rgb(250,250,205) 72%, rgb(255,254,247) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(252,234,146) 44%, rgb(250,250,205) 72%, rgb(255,254,247) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(252,234,146) 44%, rgb(250,250,205) 72%, rgb(255,254,247) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(252,234,146) 44%, rgb(250,250,205) 72%, rgb(255,254,247) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(252,234,146) 44%, rgb(250,250,205) 72%, rgb(255,254,247) 86%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.44, rgb(252,234,146)),
+		color-stop(0.72, rgb(250,250,205)),
+		color-stop(0.86, rgb(255,254,247))
+	);*/
+	background-color: #ffffff;
+	
+}
+#signupcontent{
+	background-image: linear-gradient(bottom, rgb(189,247,166) 44%, rgb(212,250,205) 72%, rgb(247,255,245) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(189,247,166) 44%, rgb(212,250,205) 72%, rgb(247,255,245) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(189,247,166) 44%, rgb(212,250,205) 72%, rgb(247,255,245) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(189,247,166) 44%, rgb(212,250,205) 72%, rgb(247,255,245) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(189,247,166) 44%, rgb(212,250,205) 72%, rgb(247,255,245) 86%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.44, rgb(189,247,166)),
+		color-stop(0.72, rgb(212,250,205)),
+		color-stop(0.86, rgb(247,255,245))
+	);
+
+
+}
+#logincontent{
+	
+
+	background-image: linear-gradient(bottom, rgb(250,190,246) 44%, rgb(250,205,248) 72%, rgb(254,247,255) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(250,190,246) 44%, rgb(250,205,248) 72%, rgb(254,247,255) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(250,190,246) 44%, rgb(250,205,248) 72%, rgb(254,247,255) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(250,190,246) 44%, rgb(250,205,248) 72%, rgb(254,247,255) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(250,190,246) 44%, rgb(250,205,248) 72%, rgb(254,247,255) 86%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.44, rgb(250,190,246)),
+		color-stop(0.72, rgb(250,205,248)),
+		color-stop(0.86, rgb(254,247,255))
+	);
+
+
+}
+#gallerycontent{
+	
+	background-image: linear-gradient(bottom, rgb(146,252,234) 44%, rgb(205,250,226) 72%, rgb(247,255,253) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(146,252,234) 44%, rgb(205,250,226) 72%, rgb(247,255,253) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(146,252,234) 44%, rgb(205,250,226) 72%, rgb(247,255,253) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(146,252,234) 44%, rgb(205,250,226) 72%, rgb(247,255,253) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(146,252,234) 44%, rgb(205,250,226) 72%, rgb(247,255,253) 86%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.44, rgb(146,252,234)),
+		color-stop(0.72, rgb(205,250,226)),
+		color-stop(0.86, rgb(247,255,253))
+	);
+}
+#maincontent{
+	padding-top: 25px
+}
+#content{
+	/*background-color: #75c938;*/
+	background-color: #8D38C9;
+	height: 520px;
+}
